@@ -10,13 +10,14 @@
         android:id="@+id/textView"
         android:layout_width="386dp"
         android:layout_height="50dp"
-        android:layout_marginTop="23dp"
+        android:layout_marginTop="16dp"
         android:text="Welcome to Tic-Tac-Toe"
         android:textAlignment="center"
         android:textColor="@color/teal_700"
         android:textSize="36sp"
         android:textStyle="bold"
         app:fontFamily="cursive"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -161,19 +162,33 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
         app:layout_constraintVertical_bias="0.343" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="393dp"
-        android:layout_height="47dp"
-        android:text="@string/developer"
-        android:textColor="@color/black"
-        android:textSize="64px"
-        android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="152dp"
+        android:layout_height="53dp"
+        android:text="@string/reset"
+        android:textSize="53px"
+        android:onClick="gameReset"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.835"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Switch
+        android:id="@+id/switchBtn"
+        android:layout_width="123dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="16dp"
+        android:text="Light mode"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.404"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
