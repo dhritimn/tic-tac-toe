@@ -6,7 +6,7 @@ Click on any grid and a symbol "X" will appear on the grid. Then give the second
 # How to download and install this?
 To install this on your android device first you need to go to the release section, click the assets and then click the apk file contained there and it will start downloading. 
 ![IMG_20220409_000911](https://user-images.githubusercontent.com/99186927/162556166-4d841dd2-2dff-41a1-a36b-8ee492ca39b4.jpg)
-After downloading go to the apk file and intall it. You can visit the release section by <a href="https://github.com/dhritimn/tic-tac-toe/releases/tag/second">clicking here</a> also.
+After downloading go to the apk file and install it. You can visit the release section by <a href="https://github.com/dhritimn/tic-tac-toe/releases/tag/second">clicking here</a> also.
 # Screenshots of the app:
 ![img2](https://user-images.githubusercontent.com/99186927/162499241-935cae0c-8484-4649-839f-c12b05fc5b84.jpg)
 ![img3](https://user-images.githubusercontent.com/99186927/162499253-ac5e6a9f-c997-4d6c-ba08-734c03535e79.jpg)
