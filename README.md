@@ -1,5 +1,5 @@
 # tic-tac-toe
-This is an android  made by me using Java via android studio.
+This is an android game made by me using Java via android studio.
 # How to play?
 This game is very easy to play. It needs two players to play. After opening the app you will be seeing some grids present on the body of the app.
 Click on any grid and a symbol "X" will appear on the grid. Then give the second player to do the same and a symbol "O" will appear on the grid. Repeat this two steps untill anyone wins the game.
